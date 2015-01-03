@@ -27,7 +27,7 @@ if POST:
 <div class="col0">
     {% if payday_is_running %}
 
-        <form><div class="constrain-width group">
+        <form><div class="constrain-width clearfix">
 
             <h2>Try Again Later</h2>
 
@@ -39,7 +39,7 @@ if POST:
 
     {% else %}
     <form method="POST">
-        <div class="constrain-width group">
+        <div class="constrain-width clearfix">
 
             {% if participant.balance > 0 %}
             <h2 class="first">Balance</h2>
